@@ -1,0 +1,1240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0802138E00F2903F6930C79C /* RMUniversalAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8E7541983E6130507CAF3E /* RMUniversalAlert.h */; };
+		0D476AB2043FBB061CD20B9B /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 920270C7E457C884A18DBC7E /* PinyinFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1A88D8748299BFADA7FFE430 /* RMPopoverPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 217A400578EF709F15D039FC /* RMPopoverPresentationController.h */; };
+		1BA196D91C5E720554074CAD /* Pods-UIActionSheet+Blocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A78A4F19C4B87D7CBB2E1AD7 /* Pods-UIActionSheet+Blocks-dummy.m */; };
+		21AC1E8CCBBE9DE99864FA75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABAC2231B68946F8E575551 /* Foundation.framework */; };
+		25880DC6005ADF542BCD1D9A /* APTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F7AB96D164FF440240F803 /* APTypes.h */; };
+		26E8A754775EE51F441125BE /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725A2EA0E4951E53860EA06 /* PinyinHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C26DB3272A23578B9940DDD /* APAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 106169ADA807915F5662758F /* APAddress.h */; };
+		30CEF955489454AAE5497485 /* APAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DAD81BDD98E8EA25CBE6BF /* APAddressBook.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3817A601FD42F01711308D25 /* Pods-UIAlertController+Blocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D0AB7D45435E86749C9A1 /* Pods-UIAlertController+Blocks-dummy.m */; };
+		468F2D00D24B74CD063C5B38 /* Pods-UIAlertView+Blocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD642EE03E853477AF857250 /* Pods-UIAlertView+Blocks-dummy.m */; };
+		4A81725C16536B13335D3AC3 /* APPhoneWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D78E61C598EBE4BFCB060E /* APPhoneWithLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E04BAAAD0F0A4B2A1D9B561 /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BB44F038EB8D42BD4400D9 /* UIAlertController+Blocks.h */; };
+		56AE33163F408D6229E8DD0B /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = A85518BF8A579F283B729C73 /* NSString+PinYin4Cocoa.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		56AF6CF35EDB75C7251644C9 /* UIActionSheet+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = C664A67D62FBDAAF7A20DF2A /* UIActionSheet+Blocks.h */; };
+		58632C594E9672300989C081 /* PinyinFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4356F5058B2ABC64673105AA /* PinyinFormatter.h */; };
+		60525CF3C9D2E416D30C7425 /* APSocialProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 365168488E1983B2394D7A4F /* APSocialProfile.h */; };
+		61446A10B73CA6693FBF7011 /* Pods-APAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B6716DE54C5C854CB0F581 /* Pods-APAddressBook-dummy.m */; };
+		6A4C8A9E63C123C4814442EE /* APAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA1DC5FC44A137721919F4 /* APAddress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7169F3C7505B0B62B430619A /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5A75B749476434FE38D4D /* UIAlertController+Blocks.m */; };
+		7FE445D16876C1372FFD3D87 /* NSString+PinYin4Cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 27FE3C175C06792D41741D60 /* NSString+PinYin4Cocoa.h */; };
+		818375DCA1055CB3F2ABD294 /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 008373B5F150FE1298F19482 /* ChineseToPinyinResource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8DE8F342435E72E3C87109B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABAC2231B68946F8E575551 /* Foundation.framework */; };
+		9135E197F8A0744A43A5C3F6 /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE757F95284F56940C5B5ED /* HanyuPinyinOutputFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		933541C89E9D68E68A0E1DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABAC2231B68946F8E575551 /* Foundation.framework */; };
+		94326C9D495795D7C92497AC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C425188134EE39E05C95B65 /* AddressBook.framework */; };
+		A515C89CACD743C387DF20FA /* Pods-PinYin4Objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A71B6A951125D10B4D790 /* Pods-PinYin4Objc-dummy.m */; };
+		AA7A31B27F610FEEAD94E257 /* PinyinHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA668015E1D23604BDAB994 /* PinyinHelper.h */; };
+		AB04D15CFD2AACC94E963A0C /* HanyuPinyinOutputFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B64A3F8B24DEA3D5AEEF15 /* HanyuPinyinOutputFormat.h */; };
+		AF2853E7257314312F6F841A /* APPhoneWithLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = CADE67A270701E742D986090 /* APPhoneWithLabel.h */; };
+		B74849E9D9433BDF6F87CFAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABAC2231B68946F8E575551 /* Foundation.framework */; };
+		BAD57ABCB01A78B06254EC99 /* RMPopoverPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48423921560BB4BFD0840244 /* RMPopoverPresentationController.m */; };
+		BC94B46D70DA3901A33169F4 /* Pods-RMUniversalAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB38412CEC0307F5DC8AF7 /* Pods-RMUniversalAlert-dummy.m */; };
+		C4DFAD53B24884E35787BD3C /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC560B258D9FB8642DB4BEF /* UIAlertView+Blocks.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CF4AB316FB6D39E3D696BA21 /* UIAlertView+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C478843B7065994DDA8598 /* UIAlertView+Blocks.h */; };
+		D5D1E307ECD5D89AB3220B91 /* APContact.h in Headers */ = {isa = PBXBuildFile; fileRef = ADDB9F1FCC24324494580276 /* APContact.h */; };
+		D6102ED94AB238950C000353 /* ChineseToPinyinResource.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DE14FDB89E5D4F5D1E67F0 /* ChineseToPinyinResource.h */; };
+		DF2CB9211E6E49162FCF73B3 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398CBB3F22E616991FAC032 /* UIActionSheet+Blocks.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DF83F03CD73D85C92D52E029 /* APAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 813FCBD642A7B75965454037 /* APAddressBook.h */; };
+		E04650B00283581166467CDF /* APContact.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0CE591D2ACE19A08A01C21 /* APContact.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E1A8D7B6A734E860CDFB8BEE /* RMUniversalAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F23DDFDD0EA428DE83951B39 /* RMUniversalAlert.m */; };
+		E2EFB31E76537A6A6ED462C2 /* APSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 745CCC3924A74EF0D0BC6B73 /* APSocialProfile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ED10AA641AC110BBDD8CFFB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABAC2231B68946F8E575551 /* Foundation.framework */; };
+		ED6537D33BF5C3A7750DA455 /* PinYin4Objc.h in Headers */ = {isa = PBXBuildFile; fileRef = 37023BB5AE011377462C5A3E /* PinYin4Objc.h */; };
+		F09AEB0FD66DC5D0A1676FC6 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFF3211F67ED339B866FE9 /* Pods-dummy.m */; };
+		F1ED33E5B4A89876EB60E21E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABAC2231B68946F8E575551 /* Foundation.framework */; };
+		F88F0FF59036D421F71C38C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABAC2231B68946F8E575551 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44A8024B8343735DAA2CB1E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC97A4F8C88AFFA9853F6E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2125DF3A9B5E69947ED863D3;
+			remoteInfo = "Pods-UIAlertController+Blocks";
+		};
+		5A6373FEE0088B2A27712A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC97A4F8C88AFFA9853F6E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10E006A65CEDDD765F711F3;
+			remoteInfo = "Pods-UIActionSheet+Blocks";
+		};
+		6F0E498D9D8D5A8D08A6DF52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC97A4F8C88AFFA9853F6E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D95D531A38826B8BA494C9A;
+			remoteInfo = "Pods-APAddressBook";
+		};
+		9A9DF5167013BB6EEE392B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC97A4F8C88AFFA9853F6E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10E006A65CEDDD765F711F3;
+			remoteInfo = "Pods-UIActionSheet+Blocks";
+		};
+		A55A43248DDEA52FE394BEDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC97A4F8C88AFFA9853F6E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A474E2F18B1A29B54058F8A;
+			remoteInfo = "Pods-RMUniversalAlert";
+		};
+		B4CF350C1673B7B979F86846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC97A4F8C88AFFA9853F6E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2125DF3A9B5E69947ED863D3;
+			remoteInfo = "Pods-UIAlertController+Blocks";
+		};
+		D98166A17BA54DFCB91DF3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC97A4F8C88AFFA9853F6E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 720ECB254A25A97C99F7ADAF;
+			remoteInfo = "Pods-UIAlertView+Blocks";
+		};
+		DB2944568AB688D688B01103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC97A4F8C88AFFA9853F6E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 720ECB254A25A97C99F7ADAF;
+			remoteInfo = "Pods-UIAlertView+Blocks";
+		};
+		E5E1E7E8EFC3CEBE8EEB57F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC97A4F8C88AFFA9853F6E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14989527CC84445CF524E168;
+			remoteInfo = "Pods-PinYin4Objc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008373B5F150FE1298F19482 /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChineseToPinyinResource.m; path = PinYin4Objc/Classes/ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		04D78E61C598EBE4BFCB060E /* APPhoneWithLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APPhoneWithLabel.m; path = Pod/Core/APPhoneWithLabel.m; sourceTree = "<group>"; };
+		052D0AB7D45435E86749C9A1 /* Pods-UIAlertController+Blocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIAlertController+Blocks-dummy.m"; sourceTree = "<group>"; };
+		0BA668015E1D23604BDAB994 /* PinyinHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PinyinHelper.h; path = PinYin4Objc/Classes/PinyinHelper.h; sourceTree = "<group>"; };
+		0C425188134EE39E05C95B65 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		0D53DB543FF8F97944688283 /* Pods-UIActionSheet+Blocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIActionSheet+Blocks-prefix.pch"; sourceTree = "<group>"; };
+		106169ADA807915F5662758F /* APAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddress.h; path = Pod/Core/APAddress.h; sourceTree = "<group>"; };
+		12C46C76D06923C9D52B684C /* Pods-UIActionSheet+Blocks-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIActionSheet+Blocks-Private.xcconfig"; sourceTree = "<group>"; };
+		13E98979AB99709DC9F699AF /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		15DB38412CEC0307F5DC8AF7 /* Pods-RMUniversalAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RMUniversalAlert-dummy.m"; sourceTree = "<group>"; };
+		16F7AB96D164FF440240F803 /* APTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APTypes.h; path = Pod/Core/APTypes.h; sourceTree = "<group>"; };
+		19CE485AA18CEC7F8750651E /* Pods-UIActionSheet+Blocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIActionSheet+Blocks.xcconfig"; sourceTree = "<group>"; };
+		1A8FB4A60F554717B99DB7B2 /* Pods-PinYin4Objc-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinYin4Objc-Private.xcconfig"; sourceTree = "<group>"; };
+		217A400578EF709F15D039FC /* RMPopoverPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RMPopoverPresentationController.h; sourceTree = "<group>"; };
+		2263112E14A0C0B05BAA63A2 /* Pods-UIAlertView+Blocks-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIAlertView+Blocks-Private.xcconfig"; sourceTree = "<group>"; };
+		27FE3C175C06792D41741D60 /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PinYin4Cocoa.h"; path = "PinYin4Objc/Classes/NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		30C0963AEACAFF151D548FF9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		365168488E1983B2394D7A4F /* APSocialProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APSocialProfile.h; path = Pod/Core/APSocialProfile.h; sourceTree = "<group>"; };
+		37023BB5AE011377462C5A3E /* PinYin4Objc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PinYin4Objc.h; path = PinYin4Objc/Classes/PinYin4Objc.h; sourceTree = "<group>"; };
+		3725A2EA0E4951E53860EA06 /* PinyinHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PinyinHelper.m; path = PinYin4Objc/Classes/PinyinHelper.m; sourceTree = "<group>"; };
+		3D15B42012CCBAC85DF90AA1 /* libPods-APAddressBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APAddressBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAB235E1AA97029A37826EA /* libPods-RMUniversalAlert.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RMUniversalAlert.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB68365734E7825B0B0ED4A /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = unicode_to_hanyu_pinyin.txt; path = PinYin4Objc/Resources/unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		4356F5058B2ABC64673105AA /* PinyinFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PinyinFormatter.h; path = PinYin4Objc/Classes/PinyinFormatter.h; sourceTree = "<group>"; };
+		46DA12D4BDB86A9553541B8B /* Pods-RMUniversalAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RMUniversalAlert-prefix.pch"; sourceTree = "<group>"; };
+		48423921560BB4BFD0840244 /* RMPopoverPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RMPopoverPresentationController.m; sourceTree = "<group>"; };
+		4E3A2151173F8BA00ECF80CF /* Pods-UIAlertController+Blocks-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIAlertController+Blocks-Private.xcconfig"; sourceTree = "<group>"; };
+		51E43CCA7530A27E03650850 /* Pods-RMUniversalAlert-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMUniversalAlert-Private.xcconfig"; sourceTree = "<group>"; };
+		55667818B017DF71A0F35B48 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B47A768D5B5F813B6A435A8 /* Pods-UIAlertController+Blocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIAlertController+Blocks-prefix.pch"; sourceTree = "<group>"; };
+		62C836C047C1E4D96238FDF5 /* Pods-APAddressBook-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APAddressBook-Private.xcconfig"; sourceTree = "<group>"; };
+		6398CBB3F22E616991FAC032 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		6D2A71B6A951125D10B4D790 /* Pods-PinYin4Objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinYin4Objc-dummy.m"; sourceTree = "<group>"; };
+		71BB44F038EB8D42BD4400D9 /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
+		72C5A75B749476434FE38D4D /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
+		745CCC3924A74EF0D0BC6B73 /* APSocialProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APSocialProfile.m; path = Pod/Core/APSocialProfile.m; sourceTree = "<group>"; };
+		7CFA1DC5FC44A137721919F4 /* APAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddress.m; path = Pod/Core/APAddress.m; sourceTree = "<group>"; };
+		813FCBD642A7B75965454037 /* APAddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBook.h; path = Pod/Core/APAddressBook.h; sourceTree = "<group>"; };
+		8501DCC12305609DE936820C /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		86CB8222B1823BD9AAC3D6F6 /* Pods-PinYin4Objc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinYin4Objc.xcconfig"; sourceTree = "<group>"; };
+		8AC560B258D9FB8642DB4BEF /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		8AFE1A8825015BC843ADD9E7 /* Pods-UIAlertView+Blocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIAlertView+Blocks-prefix.pch"; sourceTree = "<group>"; };
+		8ED47ECE5D301D87A279ADF1 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F6AADF9A4796C1616A6A546 /* libPods-UIActionSheet+Blocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIActionSheet+Blocks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920270C7E457C884A18DBC7E /* PinyinFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PinyinFormatter.m; path = PinYin4Objc/Classes/PinyinFormatter.m; sourceTree = "<group>"; };
+		9BAFF3211F67ED339B866FE9 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		9F5330E6D41B3BA6B4383993 /* libPods-PinYin4Objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PinYin4Objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D99A1213DB182BF1447E32 /* Pods-RMUniversalAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMUniversalAlert.xcconfig"; sourceTree = "<group>"; };
+		A39340218D46A5BE98EB3614 /* Pods-APAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APAddressBook-prefix.pch"; sourceTree = "<group>"; };
+		A78A4F19C4B87D7CBB2E1AD7 /* Pods-UIActionSheet+Blocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIActionSheet+Blocks-dummy.m"; sourceTree = "<group>"; };
+		A85518BF8A579F283B729C73 /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+PinYin4Cocoa.m"; path = "PinYin4Objc/Classes/NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
+		A8E8E7193C4556B504977158 /* libPods-UIAlertController+Blocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIAlertController+Blocks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABAC2231B68946F8E575551 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ADDB9F1FCC24324494580276 /* APContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContact.h; path = Pod/Core/APContact.h; sourceTree = "<group>"; };
+		B073444AA078BEAD9326F66C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0B6716DE54C5C854CB0F581 /* Pods-APAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APAddressBook-dummy.m"; sourceTree = "<group>"; };
+		B9C478843B7065994DDA8598 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		BDDED9CE7632ECE8506553C9 /* Pods-PinYin4Objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinYin4Objc-prefix.pch"; sourceTree = "<group>"; };
+		C0DE14FDB89E5D4F5D1E67F0 /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChineseToPinyinResource.h; path = PinYin4Objc/Classes/ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		C5BE81E150CF65026E112076 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		C5DAD81BDD98E8EA25CBE6BF /* APAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBook.m; path = Pod/Core/APAddressBook.m; sourceTree = "<group>"; };
+		C664A67D62FBDAAF7A20DF2A /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		CADE67A270701E742D986090 /* APPhoneWithLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APPhoneWithLabel.h; path = Pod/Core/APPhoneWithLabel.h; sourceTree = "<group>"; };
+		CD642EE03E853477AF857250 /* Pods-UIAlertView+Blocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIAlertView+Blocks-dummy.m"; sourceTree = "<group>"; };
+		CF0CE591D2ACE19A08A01C21 /* APContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContact.m; path = Pod/Core/APContact.m; sourceTree = "<group>"; };
+		E242D91B9D16782714D480D5 /* Pods-APAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APAddressBook.xcconfig"; sourceTree = "<group>"; };
+		EB3BE48432E8EE91002BF3BD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		EDE757F95284F56940C5B5ED /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HanyuPinyinOutputFormat.m; path = PinYin4Objc/Classes/HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		F1A4DCBBC33A98C6D4EAF7BF /* Pods-UIAlertController+Blocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIAlertController+Blocks.xcconfig"; sourceTree = "<group>"; };
+		F23DDFDD0EA428DE83951B39 /* RMUniversalAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RMUniversalAlert.m; sourceTree = "<group>"; };
+		F60C845A9B60F76F4C766282 /* Pods-UIAlertView+Blocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIAlertView+Blocks.xcconfig"; sourceTree = "<group>"; };
+		F8B64A3F8B24DEA3D5AEEF15 /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HanyuPinyinOutputFormat.h; path = PinYin4Objc/Classes/HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		F9A7FC94B13C50C5295404E0 /* libPods-UIAlertView+Blocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIAlertView+Blocks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8E7541983E6130507CAF3E /* RMUniversalAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RMUniversalAlert.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08434D0C3E474EA08E102A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE8F342435E72E3C87109B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5146D4F3A290A16C7DA3B5B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1ED33E5B4A89876EB60E21E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765B46CEA76F6BDC2EBBF4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94326C9D495795D7C92497AC /* AddressBook.framework in Frameworks */,
+				F88F0FF59036D421F71C38C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6DEC543B13B5972A049B389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED10AA641AC110BBDD8CFFB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37C384544AAEB12BB5249CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74849E9D9433BDF6F87CFAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CEA439C731E51E52DCB47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AC1E8CCBBE9DE99864FA75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0B52D8E643F5A7F6C71083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933541C89E9D68E68A0E1DC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12951E03BD956D2232291F9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64B304D8B27B4774E3AE8FF4 /* APAddressBook */,
+				380DA1EA4F06B73ADDC0EABD /* PinYin4Objc */,
+				FF447D57C2CAC951CCF7741E /* RMUniversalAlert */,
+				D65EE82AE8B58837B24300DD /* UIActionSheet+Blocks */,
+				C2587ECB166DB1FAC1AB1457 /* UIAlertController+Blocks */,
+				26589DE9982022E1D57B421F /* UIAlertView+Blocks */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26589DE9982022E1D57B421F /* UIAlertView+Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				B9C478843B7065994DDA8598 /* UIAlertView+Blocks.h */,
+				8AC560B258D9FB8642DB4BEF /* UIAlertView+Blocks.m */,
+				CE83BD3CE308DE900F89E4C2 /* Support Files */,
+			);
+			path = "UIAlertView+Blocks";
+			sourceTree = "<group>";
+		};
+		290F4E327DF75E4077B24D48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1A4DCBBC33A98C6D4EAF7BF /* Pods-UIAlertController+Blocks.xcconfig */,
+				4E3A2151173F8BA00ECF80CF /* Pods-UIAlertController+Blocks-Private.xcconfig */,
+				052D0AB7D45435E86749C9A1 /* Pods-UIAlertController+Blocks-dummy.m */,
+				5B47A768D5B5F813B6A435A8 /* Pods-UIAlertController+Blocks-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-UIAlertController+Blocks";
+			sourceTree = "<group>";
+		};
+		37E1B48F9F22814F71B83640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE1C585CF4141CD79F8B6AF4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		380DA1EA4F06B73ADDC0EABD /* PinYin4Objc */ = {
+			isa = PBXGroup;
+			children = (
+				C0DE14FDB89E5D4F5D1E67F0 /* ChineseToPinyinResource.h */,
+				008373B5F150FE1298F19482 /* ChineseToPinyinResource.m */,
+				F8B64A3F8B24DEA3D5AEEF15 /* HanyuPinyinOutputFormat.h */,
+				EDE757F95284F56940C5B5ED /* HanyuPinyinOutputFormat.m */,
+				27FE3C175C06792D41741D60 /* NSString+PinYin4Cocoa.h */,
+				A85518BF8A579F283B729C73 /* NSString+PinYin4Cocoa.m */,
+				37023BB5AE011377462C5A3E /* PinYin4Objc.h */,
+				4356F5058B2ABC64673105AA /* PinyinFormatter.h */,
+				920270C7E457C884A18DBC7E /* PinyinFormatter.m */,
+				0BA668015E1D23604BDAB994 /* PinyinHelper.h */,
+				3725A2EA0E4951E53860EA06 /* PinyinHelper.m */,
+				91F1D0E4B0C910149A2F1636 /* Resources */,
+				B878997899510DAE7B0CC0C4 /* Support Files */,
+			);
+			path = PinYin4Objc;
+			sourceTree = "<group>";
+		};
+		3B55A84B72DEACFFF70D5858 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19CE485AA18CEC7F8750651E /* Pods-UIActionSheet+Blocks.xcconfig */,
+				12C46C76D06923C9D52B684C /* Pods-UIActionSheet+Blocks-Private.xcconfig */,
+				A78A4F19C4B87D7CBB2E1AD7 /* Pods-UIActionSheet+Blocks-dummy.m */,
+				0D53DB543FF8F97944688283 /* Pods-UIActionSheet+Blocks-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-UIActionSheet+Blocks";
+			sourceTree = "<group>";
+		};
+		5EBC9BDB620193BF2A741AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30C0963AEACAFF151D548FF9 /* libPods.a */,
+				3D15B42012CCBAC85DF90AA1 /* libPods-APAddressBook.a */,
+				9F5330E6D41B3BA6B4383993 /* libPods-PinYin4Objc.a */,
+				3DAB235E1AA97029A37826EA /* libPods-RMUniversalAlert.a */,
+				8F6AADF9A4796C1616A6A546 /* libPods-UIActionSheet+Blocks.a */,
+				A8E8E7193C4556B504977158 /* libPods-UIAlertController+Blocks.a */,
+				F9A7FC94B13C50C5295404E0 /* libPods-UIAlertView+Blocks.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6380D5E4CB9577EF94620D32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E242D91B9D16782714D480D5 /* Pods-APAddressBook.xcconfig */,
+				62C836C047C1E4D96238FDF5 /* Pods-APAddressBook-Private.xcconfig */,
+				B0B6716DE54C5C854CB0F581 /* Pods-APAddressBook-dummy.m */,
+				A39340218D46A5BE98EB3614 /* Pods-APAddressBook-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-APAddressBook";
+			sourceTree = "<group>";
+		};
+		64B304D8B27B4774E3AE8FF4 /* APAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				84F1076B3B572DFB7C222EEA /* Core */,
+				6380D5E4CB9577EF94620D32 /* Support Files */,
+			);
+			path = APAddressBook;
+			sourceTree = "<group>";
+		};
+		66C5272C5CD18EC05571544F = {
+			isa = PBXGroup;
+			children = (
+				B073444AA078BEAD9326F66C /* Podfile */,
+				37E1B48F9F22814F71B83640 /* Frameworks */,
+				12951E03BD956D2232291F9A /* Pods */,
+				5EBC9BDB620193BF2A741AF4 /* Products */,
+				71920BA6F547B855A4734651 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		693180AE8AD3C70077B645A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55667818B017DF71A0F35B48 /* Pods-acknowledgements.markdown */,
+				8ED47ECE5D301D87A279ADF1 /* Pods-acknowledgements.plist */,
+				9BAFF3211F67ED339B866FE9 /* Pods-dummy.m */,
+				8501DCC12305609DE936820C /* Pods-environment.h */,
+				13E98979AB99709DC9F699AF /* Pods-resources.sh */,
+				EB3BE48432E8EE91002BF3BD /* Pods.debug.xcconfig */,
+				C5BE81E150CF65026E112076 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		71920BA6F547B855A4734651 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				693180AE8AD3C70077B645A9 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		84F1076B3B572DFB7C222EEA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				106169ADA807915F5662758F /* APAddress.h */,
+				7CFA1DC5FC44A137721919F4 /* APAddress.m */,
+				813FCBD642A7B75965454037 /* APAddressBook.h */,
+				C5DAD81BDD98E8EA25CBE6BF /* APAddressBook.m */,
+				ADDB9F1FCC24324494580276 /* APContact.h */,
+				CF0CE591D2ACE19A08A01C21 /* APContact.m */,
+				CADE67A270701E742D986090 /* APPhoneWithLabel.h */,
+				04D78E61C598EBE4BFCB060E /* APPhoneWithLabel.m */,
+				365168488E1983B2394D7A4F /* APSocialProfile.h */,
+				745CCC3924A74EF0D0BC6B73 /* APSocialProfile.m */,
+				16F7AB96D164FF440240F803 /* APTypes.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		91F1D0E4B0C910149A2F1636 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DB68365734E7825B0B0ED4A /* unicode_to_hanyu_pinyin.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B878997899510DAE7B0CC0C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86CB8222B1823BD9AAC3D6F6 /* Pods-PinYin4Objc.xcconfig */,
+				1A8FB4A60F554717B99DB7B2 /* Pods-PinYin4Objc-Private.xcconfig */,
+				6D2A71B6A951125D10B4D790 /* Pods-PinYin4Objc-dummy.m */,
+				BDDED9CE7632ECE8506553C9 /* Pods-PinYin4Objc-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PinYin4Objc";
+			sourceTree = "<group>";
+		};
+		C2587ECB166DB1FAC1AB1457 /* UIAlertController+Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				71BB44F038EB8D42BD4400D9 /* UIAlertController+Blocks.h */,
+				72C5A75B749476434FE38D4D /* UIAlertController+Blocks.m */,
+				290F4E327DF75E4077B24D48 /* Support Files */,
+			);
+			path = "UIAlertController+Blocks";
+			sourceTree = "<group>";
+		};
+		CE83BD3CE308DE900F89E4C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F60C845A9B60F76F4C766282 /* Pods-UIAlertView+Blocks.xcconfig */,
+				2263112E14A0C0B05BAA63A2 /* Pods-UIAlertView+Blocks-Private.xcconfig */,
+				CD642EE03E853477AF857250 /* Pods-UIAlertView+Blocks-dummy.m */,
+				8AFE1A8825015BC843ADD9E7 /* Pods-UIAlertView+Blocks-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-UIAlertView+Blocks";
+			sourceTree = "<group>";
+		};
+		D65EE82AE8B58837B24300DD /* UIActionSheet+Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				C664A67D62FBDAAF7A20DF2A /* UIActionSheet+Blocks.h */,
+				6398CBB3F22E616991FAC032 /* UIActionSheet+Blocks.m */,
+				3B55A84B72DEACFFF70D5858 /* Support Files */,
+			);
+			path = "UIActionSheet+Blocks";
+			sourceTree = "<group>";
+		};
+		D8BD199D62483DA63806B5A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D99A1213DB182BF1447E32 /* Pods-RMUniversalAlert.xcconfig */,
+				51E43CCA7530A27E03650850 /* Pods-RMUniversalAlert-Private.xcconfig */,
+				15DB38412CEC0307F5DC8AF7 /* Pods-RMUniversalAlert-dummy.m */,
+				46DA12D4BDB86A9553541B8B /* Pods-RMUniversalAlert-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-RMUniversalAlert";
+			sourceTree = "<group>";
+		};
+		EE1C585CF4141CD79F8B6AF4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0C425188134EE39E05C95B65 /* AddressBook.framework */,
+				AABAC2231B68946F8E575551 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FF447D57C2CAC951CCF7741E /* RMUniversalAlert */ = {
+			isa = PBXGroup;
+			children = (
+				217A400578EF709F15D039FC /* RMPopoverPresentationController.h */,
+				48423921560BB4BFD0840244 /* RMPopoverPresentationController.m */,
+				FA8E7541983E6130507CAF3E /* RMUniversalAlert.h */,
+				F23DDFDD0EA428DE83951B39 /* RMUniversalAlert.m */,
+				D8BD199D62483DA63806B5A4 /* Support Files */,
+			);
+			path = RMUniversalAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44BAF771A63F5417981877A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4AB316FB6D39E3D696BA21 /* UIAlertView+Blocks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607BB7A31A4CC6D2F32858B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C26DB3272A23578B9940DDD /* APAddress.h in Headers */,
+				DF83F03CD73D85C92D52E029 /* APAddressBook.h in Headers */,
+				D5D1E307ECD5D89AB3220B91 /* APContact.h in Headers */,
+				AF2853E7257314312F6F841A /* APPhoneWithLabel.h in Headers */,
+				60525CF3C9D2E416D30C7425 /* APSocialProfile.h in Headers */,
+				25880DC6005ADF542BCD1D9A /* APTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682D7F1D8BE54BE4FFA1C384 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AF6CF35EDB75C7251644C9 /* UIActionSheet+Blocks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8A6BD6866395FB793B2F71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E04BAAAD0F0A4B2A1D9B561 /* UIAlertController+Blocks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80394AD1747C7A68EAF4542D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6102ED94AB238950C000353 /* ChineseToPinyinResource.h in Headers */,
+				AB04D15CFD2AACC94E963A0C /* HanyuPinyinOutputFormat.h in Headers */,
+				7FE445D16876C1372FFD3D87 /* NSString+PinYin4Cocoa.h in Headers */,
+				ED6537D33BF5C3A7750DA455 /* PinYin4Objc.h in Headers */,
+				58632C594E9672300989C081 /* PinyinFormatter.h in Headers */,
+				AA7A31B27F610FEEAD94E257 /* PinyinHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A552319FAD59BE30028C9A6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A88D8748299BFADA7FFE430 /* RMPopoverPresentationController.h in Headers */,
+				0802138E00F2903F6930C79C /* RMUniversalAlert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14989527CC84445CF524E168 /* Pods-PinYin4Objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE60A7E49245E659AFA25CF /* Build configuration list for PBXNativeTarget "Pods-PinYin4Objc" */;
+			buildPhases = (
+				374A82B8A21D641F5BB92053 /* Sources */,
+				B6DEC543B13B5972A049B389 /* Frameworks */,
+				80394AD1747C7A68EAF4542D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PinYin4Objc";
+			productName = "Pods-PinYin4Objc";
+			productReference = 9F5330E6D41B3BA6B4383993 /* libPods-PinYin4Objc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2125DF3A9B5E69947ED863D3 /* Pods-UIAlertController+Blocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6053826AB5633E751EC1AED6 /* Build configuration list for PBXNativeTarget "Pods-UIAlertController+Blocks" */;
+			buildPhases = (
+				8887F5EB89D81F845176731C /* Sources */,
+				F37C384544AAEB12BB5249CB /* Frameworks */,
+				6B8A6BD6866395FB793B2F71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UIAlertController+Blocks";
+			productName = "Pods-UIAlertController+Blocks";
+			productReference = A8E8E7193C4556B504977158 /* libPods-UIAlertController+Blocks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2D603E9D0C149992E529D726 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBD0CF22ED54013B07430ED /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				63CAF5761193A0095C9E1A1F /* Sources */,
+				FF0B52D8E643F5A7F6C71083 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045FE93815C9B23C76979284 /* PBXTargetDependency */,
+				87779879436A80BCE8CF7B4A /* PBXTargetDependency */,
+				7174837CF29FA253FFC3FB3A /* PBXTargetDependency */,
+				C6603A5AB6105945124C5BA8 /* PBXTargetDependency */,
+				99F027F0E73D08623B01D9AA /* PBXTargetDependency */,
+				2E9BE4461F0905B8931BDC27 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 30C0963AEACAFF151D548FF9 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5A474E2F18B1A29B54058F8A /* Pods-RMUniversalAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8D31207B01EA07046B19DA /* Build configuration list for PBXNativeTarget "Pods-RMUniversalAlert" */;
+			buildPhases = (
+				D39CA5DD99670FE22D7E3B32 /* Sources */,
+				F4CEA439C731E51E52DCB47C /* Frameworks */,
+				A552319FAD59BE30028C9A6D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85C371B1D4788CE9CD30A87F /* PBXTargetDependency */,
+				87C984536D4FC8A5F4B4E79A /* PBXTargetDependency */,
+				4B1F76328AF767F100181E96 /* PBXTargetDependency */,
+			);
+			name = "Pods-RMUniversalAlert";
+			productName = "Pods-RMUniversalAlert";
+			productReference = 3DAB235E1AA97029A37826EA /* libPods-RMUniversalAlert.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		720ECB254A25A97C99F7ADAF /* Pods-UIAlertView+Blocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD42D54D379CC2D0C33EB03D /* Build configuration list for PBXNativeTarget "Pods-UIAlertView+Blocks" */;
+			buildPhases = (
+				80184D421A35A34B76FDE13B /* Sources */,
+				08434D0C3E474EA08E102A50 /* Frameworks */,
+				44BAF771A63F5417981877A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UIAlertView+Blocks";
+			productName = "Pods-UIAlertView+Blocks";
+			productReference = F9A7FC94B13C50C5295404E0 /* libPods-UIAlertView+Blocks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8D95D531A38826B8BA494C9A /* Pods-APAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5634956163F80E1BD88A950B /* Build configuration list for PBXNativeTarget "Pods-APAddressBook" */;
+			buildPhases = (
+				3D457FE0DE9FE1244A50E777 /* Sources */,
+				765B46CEA76F6BDC2EBBF4E0 /* Frameworks */,
+				607BB7A31A4CC6D2F32858B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-APAddressBook";
+			productName = "Pods-APAddressBook";
+			productReference = 3D15B42012CCBAC85DF90AA1 /* libPods-APAddressBook.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A10E006A65CEDDD765F711F3 /* Pods-UIActionSheet+Blocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418B87331CB97C09B5071418 /* Build configuration list for PBXNativeTarget "Pods-UIActionSheet+Blocks" */;
+			buildPhases = (
+				E7797DA8700CFB7E04761D3A /* Sources */,
+				5146D4F3A290A16C7DA3B5B6 /* Frameworks */,
+				682D7F1D8BE54BE4FFA1C384 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UIActionSheet+Blocks";
+			productName = "Pods-UIActionSheet+Blocks";
+			productReference = 8F6AADF9A4796C1616A6A546 /* libPods-UIActionSheet+Blocks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC97A4F8C88AFFA9853F6E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = BA39A177A4AE3A8D51C6519C /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66C5272C5CD18EC05571544F;
+			productRefGroup = 5EBC9BDB620193BF2A741AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D603E9D0C149992E529D726 /* Pods */,
+				8D95D531A38826B8BA494C9A /* Pods-APAddressBook */,
+				14989527CC84445CF524E168 /* Pods-PinYin4Objc */,
+				5A474E2F18B1A29B54058F8A /* Pods-RMUniversalAlert */,
+				A10E006A65CEDDD765F711F3 /* Pods-UIActionSheet+Blocks */,
+				2125DF3A9B5E69947ED863D3 /* Pods-UIAlertController+Blocks */,
+				720ECB254A25A97C99F7ADAF /* Pods-UIAlertView+Blocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		374A82B8A21D641F5BB92053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818375DCA1055CB3F2ABD294 /* ChineseToPinyinResource.m in Sources */,
+				9135E197F8A0744A43A5C3F6 /* HanyuPinyinOutputFormat.m in Sources */,
+				56AE33163F408D6229E8DD0B /* NSString+PinYin4Cocoa.m in Sources */,
+				0D476AB2043FBB061CD20B9B /* PinyinFormatter.m in Sources */,
+				26E8A754775EE51F441125BE /* PinyinHelper.m in Sources */,
+				A515C89CACD743C387DF20FA /* Pods-PinYin4Objc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D457FE0DE9FE1244A50E777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4C8A9E63C123C4814442EE /* APAddress.m in Sources */,
+				30CEF955489454AAE5497485 /* APAddressBook.m in Sources */,
+				E04650B00283581166467CDF /* APContact.m in Sources */,
+				4A81725C16536B13335D3AC3 /* APPhoneWithLabel.m in Sources */,
+				E2EFB31E76537A6A6ED462C2 /* APSocialProfile.m in Sources */,
+				61446A10B73CA6693FBF7011 /* Pods-APAddressBook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CAF5761193A0095C9E1A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09AEB0FD66DC5D0A1676FC6 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80184D421A35A34B76FDE13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468F2D00D24B74CD063C5B38 /* Pods-UIAlertView+Blocks-dummy.m in Sources */,
+				C4DFAD53B24884E35787BD3C /* UIAlertView+Blocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8887F5EB89D81F845176731C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3817A601FD42F01711308D25 /* Pods-UIAlertController+Blocks-dummy.m in Sources */,
+				7169F3C7505B0B62B430619A /* UIAlertController+Blocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39CA5DD99670FE22D7E3B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC94B46D70DA3901A33169F4 /* Pods-RMUniversalAlert-dummy.m in Sources */,
+				BAD57ABCB01A78B06254EC99 /* RMPopoverPresentationController.m in Sources */,
+				E1A8D7B6A734E860CDFB8BEE /* RMUniversalAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7797DA8700CFB7E04761D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA196D91C5E720554074CAD /* Pods-UIActionSheet+Blocks-dummy.m in Sources */,
+				DF2CB9211E6E49162FCF73B3 /* UIActionSheet+Blocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045FE93815C9B23C76979284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-APAddressBook";
+			target = 8D95D531A38826B8BA494C9A /* Pods-APAddressBook */;
+			targetProxy = 6F0E498D9D8D5A8D08A6DF52 /* PBXContainerItemProxy */;
+		};
+		2E9BE4461F0905B8931BDC27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIAlertView+Blocks";
+			target = 720ECB254A25A97C99F7ADAF /* Pods-UIAlertView+Blocks */;
+			targetProxy = D98166A17BA54DFCB91DF3A1 /* PBXContainerItemProxy */;
+		};
+		4B1F76328AF767F100181E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIAlertView+Blocks";
+			target = 720ECB254A25A97C99F7ADAF /* Pods-UIAlertView+Blocks */;
+			targetProxy = DB2944568AB688D688B01103 /* PBXContainerItemProxy */;
+		};
+		7174837CF29FA253FFC3FB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RMUniversalAlert";
+			target = 5A474E2F18B1A29B54058F8A /* Pods-RMUniversalAlert */;
+			targetProxy = A55A43248DDEA52FE394BEDA /* PBXContainerItemProxy */;
+		};
+		85C371B1D4788CE9CD30A87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIActionSheet+Blocks";
+			target = A10E006A65CEDDD765F711F3 /* Pods-UIActionSheet+Blocks */;
+			targetProxy = 5A6373FEE0088B2A27712A52 /* PBXContainerItemProxy */;
+		};
+		87779879436A80BCE8CF7B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PinYin4Objc";
+			target = 14989527CC84445CF524E168 /* Pods-PinYin4Objc */;
+			targetProxy = E5E1E7E8EFC3CEBE8EEB57F1 /* PBXContainerItemProxy */;
+		};
+		87C984536D4FC8A5F4B4E79A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIAlertController+Blocks";
+			target = 2125DF3A9B5E69947ED863D3 /* Pods-UIAlertController+Blocks */;
+			targetProxy = 44A8024B8343735DAA2CB1E5 /* PBXContainerItemProxy */;
+		};
+		99F027F0E73D08623B01D9AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIAlertController+Blocks";
+			target = 2125DF3A9B5E69947ED863D3 /* Pods-UIAlertController+Blocks */;
+			targetProxy = B4CF350C1673B7B979F86846 /* PBXContainerItemProxy */;
+		};
+		C6603A5AB6105945124C5BA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIActionSheet+Blocks";
+			target = A10E006A65CEDDD765F711F3 /* Pods-UIActionSheet+Blocks */;
+			targetProxy = 9A9DF5167013BB6EEE392B3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CB910EC753C5F1AF2DB029D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8FB4A60F554717B99DB7B2 /* Pods-PinYin4Objc-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PinYin4Objc/Pods-PinYin4Objc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2649E2F9059E3776AB78757E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E43CCA7530A27E03650850 /* Pods-RMUniversalAlert-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RMUniversalAlert/Pods-RMUniversalAlert-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		39CB648169B0F75BD6EA0BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C46C76D06923C9D52B684C /* Pods-UIActionSheet+Blocks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIActionSheet+Blocks/Pods-UIActionSheet+Blocks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3F352C334F91D02F5F10C0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C836C047C1E4D96238FDF5 /* Pods-APAddressBook-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-APAddressBook/Pods-APAddressBook-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4847A4F0581A986F3E254204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D4F30E254F0B86D7F47414E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8FB4A60F554717B99DB7B2 /* Pods-PinYin4Objc-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PinYin4Objc/Pods-PinYin4Objc-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6375C71F56DE48E7535C8BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C836C047C1E4D96238FDF5 /* Pods-APAddressBook-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-APAddressBook/Pods-APAddressBook-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70EC5EE23319A405DB4E6E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3BE48432E8EE91002BF3BD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B37F1DD7DFDA4CA2C341C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2263112E14A0C0B05BAA63A2 /* Pods-UIAlertView+Blocks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIAlertView+Blocks/Pods-UIAlertView+Blocks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B4611CDEC4BF7975F56663B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BE81E150CF65026E112076 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		90E33D154506C7AB617A50D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E43CCA7530A27E03650850 /* Pods-RMUniversalAlert-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RMUniversalAlert/Pods-RMUniversalAlert-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9C3565EB0142C15E94245C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2263112E14A0C0B05BAA63A2 /* Pods-UIAlertView+Blocks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIAlertView+Blocks/Pods-UIAlertView+Blocks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1E18E9C48AC836E4029D17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3A2151173F8BA00ECF80CF /* Pods-UIAlertController+Blocks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIAlertController+Blocks/Pods-UIAlertController+Blocks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D5EEB09E5D2356C78DBBE2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E231097B4B582A39D9A6621C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C46C76D06923C9D52B684C /* Pods-UIActionSheet+Blocks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIActionSheet+Blocks/Pods-UIActionSheet+Blocks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FED3F912AAC41AC654FC6B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3A2151173F8BA00ECF80CF /* Pods-UIAlertController+Blocks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIAlertController+Blocks/Pods-UIAlertController+Blocks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CBD0CF22ED54013B07430ED /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EC5EE23319A405DB4E6E01 /* Debug */,
+				8B4611CDEC4BF7975F56663B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418B87331CB97C09B5071418 /* Build configuration list for PBXNativeTarget "Pods-UIActionSheet+Blocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E231097B4B582A39D9A6621C /* Debug */,
+				39CB648169B0F75BD6EA0BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5634956163F80E1BD88A950B /* Build configuration list for PBXNativeTarget "Pods-APAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F352C334F91D02F5F10C0CF /* Debug */,
+				6375C71F56DE48E7535C8BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6053826AB5633E751EC1AED6 /* Build configuration list for PBXNativeTarget "Pods-UIAlertController+Blocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED3F912AAC41AC654FC6B98 /* Debug */,
+				A1E18E9C48AC836E4029D17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE60A7E49245E659AFA25CF /* Build configuration list for PBXNativeTarget "Pods-PinYin4Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB910EC753C5F1AF2DB029D /* Debug */,
+				4D4F30E254F0B86D7F47414E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA39A177A4AE3A8D51C6519C /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4847A4F0581A986F3E254204 /* Debug */,
+				D5EEB09E5D2356C78DBBE2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8D31207B01EA07046B19DA /* Build configuration list for PBXNativeTarget "Pods-RMUniversalAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2649E2F9059E3776AB78757E /* Debug */,
+				90E33D154506C7AB617A50D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD42D54D379CC2D0C33EB03D /* Build configuration list for PBXNativeTarget "Pods-UIAlertView+Blocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B37F1DD7DFDA4CA2C341C89 /* Debug */,
+				9C3565EB0142C15E94245C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC97A4F8C88AFFA9853F6E7A /* Project object */;
+}

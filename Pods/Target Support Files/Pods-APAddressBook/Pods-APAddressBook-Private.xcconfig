@@ -1,0 +1,6 @@
+#include "Pods-APAddressBook.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/APAddressBook" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/APAddressBook" "${PODS_ROOT}/Headers/Public/PinYin4Objc" "${PODS_ROOT}/Headers/Public/RMUniversalAlert" "${PODS_ROOT}/Headers/Public/UIActionSheet+Blocks" "${PODS_ROOT}/Headers/Public/UIAlertController+Blocks" "${PODS_ROOT}/Headers/Public/UIAlertView+Blocks"
+OTHER_LDFLAGS = ${PODS_APADDRESSBOOK_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
